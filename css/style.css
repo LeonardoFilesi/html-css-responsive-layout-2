@@ -20,6 +20,11 @@
     background-color: #9792e4;
 }
 
+.lilla {
+    color: #9792e4;
+}
+
+
 .bg-white {
     background-color: white;
 }
@@ -92,7 +97,6 @@ i {
 .button {
     border-radius: 40px;
     padding: 15px;
-    flex-direction: row;
 }
 
 p {
@@ -156,6 +160,73 @@ FIRST
     font-size: 6rem;
 }
 
-.first-button {
+.first .card h2 {
+    margin: 0 auto;
+}
 
+.first .card p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/********************************************
+SECOND
+*********************************************/
+
+.second .container {
+    flex-direction: column;
+}
+
+.second .card h2 {
+    text-align: center;
+}
+
+.second .card p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.second .button {
+    
+}
+
+/********************************************
+THIRD
+*********************************************/
+
+.third .container {
+    flex-direction: column;
+}
+
+.third p, .third h2, .third h3, .third .card p, .third .card h3 {
+    text-align: center;
+}
+
+.third .card strong {
+    font-size: 2.5rem;
+}
+
+.third .card img {
+    border-radius: 100px;
+}
+
+/********************************************
+SOLUZIONE RESPONSIVE
+*********************************************/
+
+@media screen and (min-width: 768px;) {
+    .first .container {
+        flex-direction: row;
+    }
+    .first .card {
+
+    }
+}
+
+@media screen and (min-width: 992px;) {
+    
+}
+
+@media screen and (min-width: 1200px;) {
+    
 }
