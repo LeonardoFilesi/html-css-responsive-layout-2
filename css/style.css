@@ -1,0 +1,161 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+/* ROOT */
+
+:root {
+    --lilla:rgb(#9792e4);
+    --blue:rgb(#0084fd);
+    --grey:rgb(#5b6f81);
+    --lightblue:rgb(#b5ddff);
+}
+
+.bg-lilla {
+    background-color: #9792e4;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.white {
+    color: white;
+}
+
+.bg-blue {
+    background-color: #0084fd;
+}
+
+.blue {
+    color: #0084fd;
+}
+
+.grey {
+    color:#5b6f81;
+}
+
+.bg-lightblue {
+    background-color: #b5ddff;
+}
+
+/* COMMON */
+/* structure */
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.card {
+    flex-direction: column;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 3rem 0;
+    justify-content: space-between;
+}
+
+.first-card {
+    flex-direction: column;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 3rem 0;
+    justify-content: space-between;
+}
+
+/* content */
+img {
+    width: 100%;
+}
+
+i {
+    width: 100%;
+}
+
+.button {
+    border-radius: 40px;
+    padding: 15px;
+    flex-direction: row;
+}
+
+p {
+    padding: 2rem 0;
+}
+
+h2 {
+    padding: 2rem 0;
+}
+
+h3 {
+    padding: 2rem 0;
+}
+
+/* END COMMON */
+
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/********************************************
+HEADER
+*********************************************/
+
+header {
+    background-color: #0084fd;
+    padding: 10px 0;
+    color: white;
+}
+
+header .container {
+    justify-content: space-between;
+}
+
+header .container div i {
+    font-size: 2rem;
+}
+
+/********************************************
+END HEADER
+*********************************************/
+
+
+
+/********************************************
+MAIN
+*********************************************/
+
+/********************************************
+FIRST
+*********************************************/
+
+.first .container {
+    flex-direction: column;
+}
+
+.first .card .icon {
+    margin: 0 auto;
+    font-size: 6rem;
+}
+
+.first-button {
+
+}
