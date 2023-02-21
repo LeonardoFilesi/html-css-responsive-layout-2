@@ -218,13 +218,25 @@ SOLUZIONE RESPONSIVE
     .first .container {
         flex-direction: row;
     }
-    .first .card {
-
+    .first .first-card {
+        width: calc((100 / 3 - 1.5rem) * 2);
+        margin: 3rem 0.75rem;
     }
+    .first .card {
+        width: calc(100 / 3 - 1.5rem);
+        margin: 3rem 0.75rem;
+    }
+
+    .third .card {
+        flex-direction: row;
+    }
+    
 }
 
 @media screen and (min-width: 992px;) {
-    
+    .first .first-card {
+        flex-direction: row;
+    }
 }
 
 @media screen and (min-width: 1200px;) {
